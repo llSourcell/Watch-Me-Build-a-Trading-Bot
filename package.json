@@ -1,0 +1,60 @@
+{
+  "name": "gekko",
+  "version": "0.6.8",
+  "description": "A bitcoin trading bot for auto trading at various exchanges",
+  "keywords": [
+    "trading",
+    "bot",
+    "bitcoin",
+    "TA",
+    "finance"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.js --recursive test -u tdd --reporter spec",
+    "start": "node ./gekko --config config.js --ui"
+  },
+  "author": "Mike van Rossum <mike@mvr.me>",
+  "dependencies": {
+    "async": "2.1.2",
+    "bitfinex-api-node": "^1.2.1",
+    "co-fs": "^1.2.0",
+    "commander": "^2.13.0",
+    "gekko": "0.0.9",
+    "humanize-duration": "^3.10.0",
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "lodash": "2.x",
+    "moment": "^2.20.1",
+    "opn": "^4.0.2",
+    "promisify-node": "^0.5.0",
+    "prompt-lite": "0.1.1",
+    "relieve": "^2.1.3",
+    "retry": "^0.10.1",
+    "semver": "5.4.1",
+    "sqlite3": "^4.0.6",
+    "stats-lite": "^2.0.4",
+    "tiny-promisify": "^0.1.1",
+    "toml": "^2.3.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "proxyquire": "^1.7.10",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sinon": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/askmike/gekko.git"
+  }
+}

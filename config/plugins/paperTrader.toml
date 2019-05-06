@@ -1,0 +1,8 @@
+feeMaker = 0.25
+feeTaker = 0.25
+feeUsing = 'maker'
+slippage = 0.05
+
+[simulationBalance]
+asset = 1
+currency = 100

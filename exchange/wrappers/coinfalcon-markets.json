@@ -1,0 +1,316 @@
+{
+  "assets": [
+    "IOT",
+    "ETH",
+    "LTC",
+    "BTC",
+    "NANO",
+    "BCH",
+    "KIN",
+    "TRX",
+    "CRPT",
+    "GRLC",
+    "ECA",
+    "XRP",
+    "ADA",
+    "DOGE",
+    "STQ",
+    "DASC",
+    "EOS",
+    "DTX"
+  ],
+  "currencies": [
+    "BTC",
+    "EUR",
+    "ETH",
+    "USDT"
+  ],
+  "markets": [
+    {
+      "pair": [
+        "BTC",
+        "IOT"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 0.00001,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "LTC"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 0.00001,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "EUR",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 0.01,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "NANO"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 0.00001,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "KIN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-10,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "KIN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "TRX"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "CRPT"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "GRLC"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "ECA"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "ECA"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "XRP"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "ADA"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "ADA"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "DOGE"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "STQ"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "EUR",
+        "IOT"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.0001,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "DASC"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "DASC"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 1e-8,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "EUR",
+        "DASC"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.0001,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "EUR",
+        "NANO"
+      ],
+      "minimalOrder": {
+        "amount": 0.0001,
+        "price": 0.0001,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 1e-8,
+        "price": 0.01,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "EOS"
+      ],
+      "minimalOrder": {
+        "amount": 0.0001,
+        "price": 0.01,
+        "order": 0
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "DTX"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 1e-8,
+        "order": 0
+      }
+    }
+  ]
+}

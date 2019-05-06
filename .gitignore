@@ -1,0 +1,52 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+config.js
+api-keys.js
+.cache
+.project
+.settings
+.tmproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Espresso
+*.esproj
+*.espressostorage
+
+# Folders & files to ignore
+
+node_modules
+candles.csv
+cexio.db
+history
+TMP_*
+.idea
+volumes
+config.js
+config-*.js
+private-*.js
+private-*.toml
+SECRET-api-keys.json
+exchange/nusadua
